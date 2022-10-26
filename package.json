@@ -1,0 +1,23 @@
+{
+  "name": "@monstermakes/monster-doodles",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A place to doodle",
+  "scripts": {
+    "test": "npm test --workspaces"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonsterMakes/monster-doodles.git"
+  },
+  "author": "MONSTER",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MonsterMakes/monster-doodles/issues"
+  },
+  "homepage": "https://github.com/MonsterMakes/monster-doodles#readme",
+  "workspaces": [
+    "packages/exploration/dynamodb-stream-lag",
+    "packages/operations/datadog/datadog-log-query-utils"
+  ]
+}

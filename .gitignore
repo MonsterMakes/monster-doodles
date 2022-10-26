@@ -1,0 +1,4 @@
+.history/
+node_modules/
+
+packages/exploration/dynamodb-stream-lag/.DS_Store

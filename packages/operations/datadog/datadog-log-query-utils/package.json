@@ -1,0 +1,20 @@
+{
+  "name": "@monstermakes/datadog-log-query-utils",
+  "version": "1.0.0",
+  "description": "Data dog API log query utilities",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonsterMakes/monster-doodles.git"
+  },
+  "author": "MONSTER",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MonsterMakes/monster-doodles/issues"
+  },
+  "homepage": "https://github.com/MonsterMakes/monster-doodles#readme"
+}

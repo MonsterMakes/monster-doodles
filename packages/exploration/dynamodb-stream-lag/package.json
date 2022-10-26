@@ -1,0 +1,35 @@
+{
+  "name": "@monstermakes/dynamodb-stream-lag",
+  "version": "1.0.0",
+  "description": "Using dynamodb streams with lambda functions is fantastic and \"near realtime\"... This project aims to explore what \"near realtime\" means.",
+  "bin": {
+    "dynamodb-stream-lag": "bin/dynamodb-stream-lag.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "datadog-ci": "datadog-ci",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonsterMakes/monster-doodles.git"
+  },
+  "author": "MONSTER",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MonsterMakes/monster-doodles/issues"
+  },
+  "homepage": "https://github.com/MonsterMakes/monster-doodles#readme",
+  "devDependencies": {
+    "aws-cdk": "2.47.0",
+    "datadog-cdk-constructs-v2": "^1.0.0",
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.47.0",
+    "constructs": "^10.0.0",
+    "lambda-log": "^3.1.0",
+    "uuid": "^9.0.0"
+  }
+}
